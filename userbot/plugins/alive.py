@@ -14,7 +14,7 @@ from telethon.tl.types import ChannelParticipantsAdmins
 from userbot.cmdhelp import CmdHelp
 
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "𝕄𝔸𝔽𝕀𝔸𝔹𝕆𝕋"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "SKYHAWKBOT"
 
 # Thanks to Sipak bro and Raganork.. 
 # animation Idea by @NOOB_GUY_OP (Sipakisking)
@@ -33,25 +33,25 @@ mafia = bot.uid
 
 edit_time = 16
 """ =======================CONSTANTS====================== """
-file1 = "https://telegra.ph/file/2408a2877646132ac52fd.mp4"
-file2 = "https://telegra.ph/file/e97d640332ce5eadb3f89.mp4"
-file3 = "https://telegra.ph/file/0b2862d312a2aeb804b36.mp4"
-file4 = "https://telegra.ph/file/866c79e351350a08f2b06.mp4"
+file1 = "https://telegra.ph/file/0a048546ec9b7720303ba.jpg"
+file2 = "https://telegra.ph/file/0a048546ec9b7720303ba.jpg"
+file3 = "https://telegra.ph/file/0a048546ec9b7720303ba.jpg"
+file4 = "https://telegra.ph/file/0a048546ec9b7720303ba.jpg"
 """ =======================CONSTANTS====================== """
-pm_caption = "  __**🔥🔥𝐌𝐀𝐅𝐈𝐀 𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄🔥🔥**__\n\n"
+pm_caption = "  __**🔥🔥SKYHAWK 𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄🔥🔥**__\n\n"
 
 pm_caption += f"**━━━━━━━━━━━━━━━━━━━━**\n\n"
 
 pm_caption += f"┏━━━━━━━━━━━━━━━━━━━\n"
-pm_caption += f"┣• `Master:` 『😈[{DEFAULTUSER}](tg://user?id={mafia})😈』**\n"
+pm_caption += f"┣• `Master:` 『😈[{DEFAULTUSER}](tg://user?id={skyhawk})😈』**\n"
 pm_caption += f"┣• `Telethon:` `1.15.0` \n"
 pm_caption += f"┣• `Version:` `{mafiaversion}`\n"
 pm_caption += f"┣• `Sudo:` `{sudou}`\n"
-pm_caption += f"┣• `Channel:` [ᴊᴏɪɴ](https://t.me/MafiaBot_Support)\n"
-pm_caption += f"┣• `Creator:` [Himanshu](https://t.me/H1M4N5HU0P)\n"
+pm_caption += f"┣• `Channel:` [ᴊᴏɪɴ](https://t.me/SKYHAWKUSERBOT)\n"
+pm_caption += f"┣• `Creator:` [Himanshu](https://t.me/KING_COBRA_OPP)\n"
 pm_caption += f"┣• `Supporter:` [HellBoy](https://t.me/kraken_the_badass)\n"
 pm_caption += f"┗━━━━━━━━━━━━━━━━━━━\n"
-pm_caption += " [🔥REPO🔥](https://github.com/H1M4N5HU0P/MAFIA-BOT) 🔹 [📜License📜](https://github.com/H1M4N5HU0P/MAFIA-BOT/blob/main/LICENSE)"
+pm_caption += " [🔥REPO🔥](https://github.com/) 🔹 [📜License📜](hKING-USER1/SKYHAWK_USERBOTttps://github.com/H1M4N5HU0P/MAFIA-BOT/blob/main/LICENSE)"
 
 # @command(outgoing=True, pattern="^.alive$")
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
